@@ -1,13 +1,10 @@
-# README
-## This is the README for your extension "vscode-multi-line-tricks" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Multiline Tricks
+This plugins enables the line seletion and end line multi cursor behaviour of Sublime Text to VSCode.
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+## Line selection - Alt+L 
+Selects the current cursor line.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## End line multi cursor - Alt+Shift+L
+For each selected line, put a cursor an the end of it and unselect it.
 
-** Enjoy!**
+![Example of execution](docs/line-selection-and-multiple-cursors.gif)
