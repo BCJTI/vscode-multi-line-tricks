@@ -1,9 +1,12 @@
 {
 	"name": "vscode-multi-line-tricks",
-	"displayName": "vscode-multi-line-tricks",
-	"description": "Enable Ctrl+Shif+L and Ctrl+L behavior on VSCode to be the same as in Sublime",
-	"version": "0.0.1",
+	"displayName": "Multi Line tricks",
+	"description": "Enable Alt+L (line select) and Alt+Shift+L (selection to multi-cursor) behavior on VSCode",
+	"version": "0.0.3",
 	"publisher": "bigous",
+	"repository": {
+		"url": "https://github.com/BCJTI/vscode-multi-line-tricks"
+	},
 	"engines": {
 		"vscode": "^0.10.1"
 	},
